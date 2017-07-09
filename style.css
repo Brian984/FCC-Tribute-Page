@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(black, #2c2d2d);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
+#title {
+  font-family: 'Rajdhani', monospace;
+  color: white;
+  font-size: 5vw;
+  letter-spacing: 2px;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+#image {
+  max-width: 60%;
+  border-radius: 7px;
+}
+#img-caption {
+  font-family: 'Rajdhani', monospace;
+  color: white;
+  font-size: 1.1vw;
+  letter-spacing: 1.5px;
+  margin-top: 20px;
+}
+
+#tribute-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#tribute-info h2 {
+  font-family: monospace, sans-serif;
+  color: white;
+  font-size: 2.1vw;
+  padding: 5% 5% 0 5%;
+}
+#source, #source:visited, #source:hover, #source:active {
+  color: inherit;
+}
+#tribute-info p {
+  font-family: monospace, sans-serif;
+  color: white;
+  font-size: 1.3vw;
+  line-height: 30px;
+  padding: 5% 5% 0 5%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 100px;
+}
+footer p {
+  font-family: 'Rajdhani', monospace;
+  color: white;
+  font-size: 1.5vw;
+  letter-spacing: 1.5px;
+  margin: 25px;
+}
+footer p:first-child {
+  width: 56%;
+  font-size: 2.1vw;
+}
+#tribute-link, #tribute-link:visited, #tribute-link:hover, #tribute-link:active {
+  color: inherit;
+}
